@@ -1,4 +1,5 @@
-﻿Artikel,Deutsch,Plural Suffix,Plural,Type,English,فارسی
+﻿,de,,,,en,fa
+Artikel,Deutsch,Plural Suffix,Plural,Type,English,فارسی
 ,,,,,,
 ,Hallo,,,,hello,درود
 ,Guten Tag,,,,good day,روز خوش
@@ -38,7 +39,8 @@ die,Vorwahl,en,Vorwahlen,,phone prefix,پیش شماره تلفن
 die,Telefonnummer,n,Telefonnummern,,telephone number,شماره تلفن
 die,Handynummer,n,Handynummern,,mobile number,شماره موبایل
 die,Mobilnummer,n,Mobilnummern,,mobile number,شماره موبایل
-die,Mail,,,,mail,ایمیل
+die/das,Mail,,,,mail,ایمیل
+die/das,E-Mail,,,,e-mail,ایمیل
 die,Nationalität,en,Nationalitäten,,nationality,ملیت
 der,Beruf,e,Berufe,,profession,حرفه
 die,Antwort,en,Antworten,,answer,پاسخ
@@ -100,7 +102,6 @@ die,Milliarde,n,Milliarden,,billion,میلیارد
 der,Kontinent,e,Kontinente,,continent,قاره
 das,Land,Länder,,,country,کشور
 die,Verabschiedung,,,,farewell,خداحافظی
-,gut,,,adj,good,خوب
 das,Geschäft,,,,business,دادوستد
 ,bilden,,,v,form,ساختن
 ,schreiben,,,v,write,بنویس
@@ -114,10 +115,10 @@ der,Abend,,,,evening,عصر
 die,Nacht,,,,night,شب
 ,morgens,,,,morning,صبح‌ها
 ,vormittags,,,,morning,پیش از ظهرها
-,mittags,,,,midday,ظهر
-,nachmittags,,,,afternoon,بعد از ظهر
-,abends,,,,at evening,عصر
-,nachts,,,,at night,شب هنگام
+,mittags,,,,midday,ظهرها
+,nachmittags,,,,afternoon,بعد از ظهرها
+,abends,,,,at evening,عصرها
+,nachts,,,,at night,شب ها
 der,Wochentag,,,,weekday,روز هفته
 der,Montag,e,Montage,,monday,دوشنبه
 der,Dienstag,e,Dienstage,,tuesday,سه‌شنبه
@@ -145,7 +146,6 @@ der,Sommer,-,,,summer,تابستان
 der,Herbst,e,Herbste,,autumn,پاییز
 der,Winter,-,,,winter,زمستان
 das,Datum,Daten,,,date,تاریخ
-die,Zahl,en,Zahlen,,number,شماره
 die,Jahreszahl,,,,year number,سال به عدد
 die,Zeit,en,Zeiten,,time,زمان
 die,Uhrzeit,,,,hour,ساعت
@@ -167,7 +167,7 @@ die,Kultur,,,,culture,فرهنگ
 das,Kino,s,Kinos,,cinema,سینما
 der,Film,e,Filme,,film,فیلم
 der,Actionfilm,,,,action film,فیلم اکشن
-der,Kinofilm,,,,movie,فیلم
+der,Kinofilm,,,,movie,فیلم سینمایی
 die,Ausstellung,en,Ausstellungen,,exhibition,نمایشگاه
 das,Museum,Museen,,,museum,موزه
 der,Band,Bände,,,publication group,گروه انتشارات
@@ -221,7 +221,6 @@ das,Treffen,,,,meet,دیدار كردن
 ,toll,,,,great,عالی
 ,interessant,,,,interesting,جالب
 ,langweilig,,,,boring,خسته کننده
-,gut,,,,good,خوب
 ,schlecht,,,,bad,بد
 ,schön,,,,nice,خوب
 ,schrecklich,,,,terrible,وحشتناک
@@ -256,7 +255,7 @@ das,Verb,en,Verben,,verb,فعل
 ,grüßen,,,,greet,سلام کردن
 ,haben,,,,have,داشته باشند
 ,kennen,,,,know,بدانید
-,lernen,,,,learn,یاد گرفتن
+,lernen,,,,learn,یاد بگیرید
 ,machen,,,,"make, do","كردن, ساختن, انجام دادن, درست كردن"
 ,planen,,,,plan,برنامه ریزی کردن
 ,präsentieren,,,,present,ارائه دادن
@@ -349,7 +348,7 @@ der,Saft,Säfte,,,juice,آبمیوه
 das,Wasser,,,,water,آب
 der,Wein,e,Weine,,wine,شراب
 ,kaufen,,,v,shopping,خرید کردن
-,einkaufen,,,v,do shopping,خرید کردن
+,einkaufen,,,v,do shopping,خرید
 der,Einkauf,Einkäufe,,,shopping,خرید
 der,Einkaufszettel,-,,,shopping list,لیست خرید
 der,Kunde,n,Kunden,,customer,مشتری
@@ -549,7 +548,7 @@ das,Fitnesstraining,,,,fitness training,آموزش تناسب اندام
 ,trainieren,,,v,train,تمرین کردن
 der,Muskelkater,,,,sore muscles,عضلات دردناک
 der,Triathlon,s,Triathlons,,triathlon,تریاتلون
-der,Triathlet,en,Triathleten,,#VALUE!,ورزشکار سه‌گانه
+der,Triathlet,en,Triathleten,,triathlete,ورزشکار سه‌گانه
 die,Triathletin,nen,Triathletinnen,,triathlete,ورزشکار سه‌گانه
 der,Marathon,s,Marathons,,marathon,ماراتن
 der,Start,s,Starts,,start,شروع
@@ -749,7 +748,6 @@ die,Überraschung,en,Überraschungen,,surprise,غافلگیری
 ,preiswert,,,adj,inexpensive,کم‌هزینه
 ,teuer,,,adj,expensive,گران
 ,brauchen,,,v,need,نیاز داشتن
-,neu,,,adj,new,جدید
 ,modern,,,adj,modern,امروزی
 ,klein,,,adj,small,کوچک
 ,groß,,,adj,large,بزرگ
