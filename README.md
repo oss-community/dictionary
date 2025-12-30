@@ -18,8 +18,3 @@ This repository contains curated vocabulary lists in Persian (Farsi), English, a
 [Book_03_B1.csv](Book_03_B1.csv)
 [Book_03_B1.ods](Book_03_B1.ods)
 [Book_03_B1.xlsx](Book_03_B1.xlsx)
-
-
-
-
-**<p align="center"> [Top](#dictionary) </p>**
