@@ -34,7 +34,7 @@ die,Nummer,n,Nummern,,number,شماره
 die,Hausnummer,n,Hausnummern,,house number,شماره خانه
 der,Wohnort,e,Wohnorte,,place of residence,محل سکونت
 die,Postleitzahl,en,Postleitzahlen,,postal code,کد پستی
-die,Stadt,Städte,,,city,شهر
+die,Stadt,Städte,Städte,,city,شهر
 die,Vorwahl,en,Vorwahlen,,phone prefix,پیش شماره تلفن
 die,Telefonnummer,n,Telefonnummern,,telephone number,شماره تلفن
 die,Handynummer,n,Handynummern,,mobile number,شماره موبایل
@@ -100,25 +100,25 @@ die,Milliarde,n,Milliarden,,billion,میلیارد
 ,Freut mich,,,,Pleased to meet you,از دیدار شما خوشحالم
 ,viel Spaß,,,,have fun,خوش بگذره
 der,Kontinent,e,Kontinente,,continent,قاره
-das,Land,Länder,,,country,کشور
+das,Land,Länder,Länder,,country,کشور
 die,Verabschiedung,,,,farewell,خداحافظی
 das,Geschäft,,,,business,دادوستد
 ,bilden,,,v,form,ساختن
 ,schreiben,,,v,write,بنویس
 das,Paar,e,Paare,,couple,زوج
-,privat,,,,private,خصوصی
+,privat,,,adj,private,خصوصی
 die,Tageszeit,en,Tageszeiten,,time of day,اوقات روز
 der,Morgen,,,,morning,صبح
 der,Vormittag,,,,late morning,پیش از ظهر
 der,Nachmittag,,,,afternoon,بعد از ظهر
 der,Abend,,,,evening,عصر
 die,Nacht,,,,night,شب
-,morgens,,,,morning,صبح‌ها
-,vormittags,,,,morning,پیش از ظهرها
-,mittags,,,,midday,ظهرها
-,nachmittags,,,,afternoon,بعد از ظهرها
-,abends,,,,at evening,عصرها
-,nachts,,,,at night,شب ها
+,morgens,,,adv,in the morning,صبح‌ها
+,vormittags,,,adv,in the late morning,پیش از ظهرها
+,mittags,,,adv,at noon,ظهرها
+,nachmittags,,,adv,in the afternoon,بعد از ظهرها
+,abends,,,adv,in the evening,عصرها
+,nachts,,,adv,at night,شب ها
 der,Wochentag,,,,weekday,روز هفته
 der,Montag,e,Montage,,monday,دوشنبه
 der,Dienstag,e,Dienstage,,tuesday,سه‌شنبه
@@ -136,20 +136,20 @@ der,Mai,e,Maie,,may,مه
 der,Juni,s,Junis,,june,ژوئن
 der,Juli,s,Julis,,july,جولای
 der,August,e,Auguste,,august,مرداد
-der,September,-,,,september,سپتامبر
-der,Oktober,-,,,october,اکتبر
-der,November,-,,,november,نوامبر
-der,Dezember,-,,,december,دسامبر
+der,September,-,-,,september,سپتامبر
+der,Oktober,-,-,,october,اکتبر
+der,November,-,-,,november,نوامبر
+der,Dezember,-,-,,december,دسامبر
 die,Jahreszeit,,,,season,فصل
 der,Frühling,e,Frühlinge,,spring,بهار
-der,Sommer,-,,,summer,تابستان
+der,Sommer,-,-,,summer,تابستان
 der,Herbst,e,Herbste,,autumn,پاییز
-der,Winter,-,,,winter,زمستان
-das,Datum,Daten,,,date,تاریخ
+der,Winter,-,-,,winter,زمستان
+das,Datum,Daten,Daten,,date,تاریخ
 die,Jahreszahl,,,,year number,سال به عدد
 die,Zeit,en,Zeiten,,time,زمان
 die,Uhrzeit,,,,hour,ساعت
-der,Kalender,-,,,calendar,تقویم
+der,Kalender,-,-,,calendar,تقویم
 ,,,,,,
 der,Termin,e,Termine,,appointment,قرار ملاقات
 der,Terminkalender,,,,the appointment calendar,تقویم قرار ملاقات
@@ -169,36 +169,37 @@ der,Film,e,Filme,,film,فیلم
 der,Actionfilm,,,,action film,فیلم اکشن
 der,Kinofilm,,,,movie,فیلم سینمایی
 die,Ausstellung,en,Ausstellungen,,exhibition,نمایشگاه
-das,Museum,Museen,,,museum,موزه
-der,Band,Bände,,,publication group,گروه انتشارات
+das,Museum,Museen,Museen,,museum,موزه
+der,Band,Bände,Bände,,publication group,گروه انتشارات
 die,Band,s,Bands,,music band,گروه موسیقی
-das,Band,Bänder,,,band,"نوار،روبان"
+das,Band,Bänder,Bänder,,band,"نوار،روبان"
 die,Musikgruppe,n,Musikgruppen,,music group,گروه موسیقی
 das,Leid,er,Leider,,sorrow,غم و اندوه
 ,singen,,,v,sing,آواز خواندن
 der,Gesang,e,Gesange,,singing,آواز
-der,Chor,Chöre,,,choir,همسرایان
+der,Chor,Chöre,Chöre,,choir,همسرایان
 das,Konzert,e,Konzerte,,concert,کنسرت
 die,CD,s,CDs,,cd,سی دی
 der,Hit,s,Hits,,hit,آهنگ پرفروش روز
 der,Stil,e,Stile,,style,آراستگی
-das,Chanson,s,Chansons,,song,ترانه
+das,Chanson,s,Chansons,,modern French song,ترانه فرانسوی نو
+die,Chanson,s,Chansons,,classic French song,ترانه فرانسوی کلاسیک
 der,Jazz,,,,jazz,جاز
 die,Klassik,,,,classical,کلاسیک
 die,Popmusik,,,,pop music,موسیقی پاپ
 die,Rockmusik,,,,rock music,موسیقی راک
 der,Urlaub,e,Urlaube,,vacation,تعطیلات
-der,Ausflug,Ausfüge,,,excursion,گردش
+der,Ausflug,Ausflüge,Ausflüge,,excursion,گردش
 ,Urlaub machen,,,,to go on vacation,به تعطیلات رفتن
 ,in Urlaub fahren,,,,to go on vacation by vehicle,به تعطیلات رفتن با خودرو
 ,nach Hause fahren,,,,drive back home,به خانه برگشتن
 der,Sport,,,,sport,ورزش
 das,Cafe,s,Cafes,,cafe,قهوه‌خانه
-das,Essen,-,,,food,خوراك
+das,Essen,-,-,,food,خوراك
 das,Restaurant,s,Restaurants,,restaurant,رستوران
 das,Hotel,s,Hotels,,hotel,هتل
 die,Kathedrale,n,Kathedralen,,cathedral,کلیسای جامع
-der,Markt,Märkte,,,market,بازار
+der,Markt,Märkte,Märkte,,market,بازار
 der,Park,s,Parks,,park,پارک
 die,Natur,,,,nature,طبیعت
 das,Wetter,,,,weather,آب و هوا
@@ -209,75 +210,73 @@ der,Chef,s,Chefs,,boss,رئیس
 die,Chefin,nen,Chefinnen,,boss,رئیس
 der,Direktor,en,Direktoren,,director,کارگردان
 die,Direktorin,nen,Direktorinnen,,director,کارگردان
-der,Flug,Flüge,,,flight,پرواز
+der,Flug,Flüge,Flüge,,flight,پرواز
 der,Kollege,n,Kollegen,,colleague,همکار
 die,Kollegin,nen,Kolleginnen,,colleague,همکار
 die,Besprechung,en,Besprechungen,,meeting,نشست
 die,Konferenz,,,,conference,همایش
 die,Telefonkonferenz,,,,telephone conference,همایش تلفنی
-das,Treffen,,,,meet,دیدار كردن
-,blöd,,,,stupid,احمق
-,super,,,,super,فوق العاده
-,toll,,,,great,عالی
-,interessant,,,,interesting,جالب
-,langweilig,,,,boring,خسته کننده
-,schlecht,,,,bad,بد
-,schön,,,,nice,خوب
-,schrecklich,,,,terrible,وحشتناک
+das,Treffen,,,,meet,دیدار
+,blöd,,,adj,stupid,احمق
+,super,,,adj,super,فوق العاده
+,toll,,,adj,great,عالی
+,interessant,,,adj,interesting,جالب
+,langweilig,,,adj,boring,خسته کننده
+,schlecht,,,adj,bad,بد
+,schön,,,adj,nice,خوب
+,schrecklich,,,adj,terrible,وحشتناک
 das,Auto,s,Autos,,car,ماشین
-der,Beginn,,,,beginn,بگین
+der,Beginn,,,,beginn,آغاز
 der,Freund,e,Freunde,,friend,دوست
 die,Freundin,nen,Freundinnen,,girlfriend,دوست دختر
 der,Friseur,e,Friseure,,barber,آرایشگر
 die,Friseurin,nen,Friseurinnen,,hairdresser,آرایشگر
 der,Geburtstag,e,Geburtstage,,birthday,تولد
-der,Gruß,Grüße,,,greeting,احوالپرسی
+der,Gruß,Grüße,Grüße,,greeting,احوالپرسی
 die,Karte,n,Karten,,card,کارت
 der,Mensch,en,Menschen,,person,شخص
-die,Mutter,Mütter,,,mother,مادر
-der,Vater,Väter,,,father,پدر
 die,Öffnungszeit,en,Öffnungszeiten,,opening hours,ساعات کاری
 das,Plakat,e,Plakate,,poster,آگهی دیواری
-die,SMS,-,,,sms,پیامک
+die,SMS,-,-,,sms,پیامک
 das,Tier,e,Tiere,,animal,حیوان
-der,Zettel,-,,,piece of paper,تكه‌كاغذ
+der,Zettel,-,-,,piece of paper,تكه‌كاغذ
 das,Verb,en,Verben,,verb,فعل
-,beginnen,,,,start,آغاز کردن
-,besuchen,,,,visit,بازدید کردن
-,brauchen,,,,need,نیاز داشتن
-,finden,,,,find,پیدا کردن
-,funktionieren,,,,function,کار کردن
-,geben,,,,give,دادن
-,Es gibt,,,,there are,وجود دارد
-,geboren sein,,,,to be born,به دنیا آمدن
-,gehen,,,,go,رفتن
-,gründen,,,,found,تاسیس کردن
-,grüßen,,,,greet,سلام کردن
-,haben,,,,have,داشته باشند
-,kennen,,,,know,بدانید
-,lernen,,,,learn,یاد بگیرید
-,machen,,,,"make, do","كردن, ساختن, انجام دادن, درست كردن"
-,planen,,,,plan,برنامه ریزی کردن
-,präsentieren,,,,present,ارائه دادن
-,produzieren,,,,produce,تولید كردن
-,telefonieren,,,,make a phone call,تماس تلفنی برقرار کنید
-,zeigen,,,,show,نشان دادن
-,falsch,,,,incorrect,نادرست
-,klein,,,,small,کوچک
-,nett,,,,nice,خوش ایند
-,populär,,,,popular,محبوب
-,privat,,,,private,خصوصی
-,sicher,,,,secure,امن
-,teuer,,,,expensive,گران
-,typisch,,,,typical,ساده
-,erst,,,,first,یکم
-,gern,,,,gladly,با کمال میل
-,hoffentlich,,,,hopefully,امیدوارم
-,leider,,,,unfortunately,متاسفانه
-,noch,,,,still,هنوز
-,schon,,,,already,پیش از این
-,sehr,,,,very,خیلی
-,am,,,,at,در
+die,Lust,,,,desire,میل
+,beginnen,,,v,start,آغاز کردن
+,besuchen,,,v,visit,بازدید کردن
+,brauchen,,,v,need,نیاز داشتن
+,finden,,,v,find,پیدا کردن
+,funktionieren,,,v,function,کار کردن
+,geben,,,v,give,دادن
+,Es gibt,,,v,there are,وجود دارد
+,geboren sein,,,v,to be born,به دنیا آمدن
+,gehen,,,v,go,رفتن
+,gründen,,,v,found,تاسیس کردن
+,grüßen,,,v,greet,سلام کردن
+,haben,,,v,have,داشتن
+,kennen,,,v,know,شناختن
+,lernen,,,v,learn,آموختن
+,machen,,,v,"make, do","كردن, ساختن, انجام دادن, درست كردن"
+,planen,,,v,plan,برنامه ریزی کردن
+,präsentieren,,,v,present,ارائه دادن
+,produzieren,,,v,produce,تولید كردن
+,telefonieren,,,v,make a phone call,تلفن زدن
+,zeigen,,,v,show,نشان دادن
+,falsch,,,adj,incorrect,نادرست
+,klein,,,adj,small,کوچک
+,nett,,,adj,nice,خوش ایند
+,populär,,,adj,popular,محبوب
+,privat,,,adj,private,خصوصی
+,sicher,,,adj,secure,امن
+,teuer,,,adj,expensive,گران
+,typisch,,,adj,typical,نمونه
+,erst,,,adv,first,یکم
+,gern,,,adv,gladly,با کمال میل
+,hoffentlich,,,adv,hopefully,امیدوارم
+,leider,,,adv,unfortunately,متاسفانه
+,schon,,,adv,already,پیش از این
+,sehr,,,adv,very,خیلی
+,am,,,,at the,در
 ,im,,,,in the,در
 ,mit,,,,with,با
 ,nach,,,,after,بعد از
@@ -286,17 +285,16 @@ das,Verb,en,Verben,,verb,فعل
 ,von,,,,from,از
 ,bis,,,,until,تا
 ,vom,,,,from the,از
-,bis zum,,,,until,تا
+,bis zum,,,,until the,تا زمانِ
 ,wer,,,,who,چه کسی
 ,was,,,,what,چه
 ,wann,,,,when,چه زمانی
-die,Lust,,,,desire,میل
 ,,,,,,
 das,Obst,,,,fruit,میوه
-der,Apfel,Äpfel,,,apple,اپل
+der,Apfel,Äpfel,Äpfel,,apple,سیب
 die,Banane,n,Bananen,,banana,موز
 die,Erdbeere,n,Erdbeeren,,strawberry,توت فرنگی
-die,Orange,n,Orangen,,orange,نارنجی
+die,Orange,n,Orangen,,orange,پرتقال
 das,Gemüse,,,,vegetables,سبزیجات
 die,Erbse,n,Erbsen,,pea,نخود فرنگی
 die,Gurke,n,Gurken,,cucumber,خیار
@@ -310,19 +308,19 @@ die,Nudel,n,Nudeln,,noodle,رشته فرنگی
 der,Reis,,,,rice,برنج
 die,Milchprodukte,,,,dairy products,محصولات لبنی
 die,Butter,,,,butter,کره
-der,Käse,-,,,cheese,پنیر
-der,Emmentaler Käse,-,,,emmental cheese,نوعی پنیر سوییسی با حفره های زیاد
+der,Käse,-,-,,cheese,پنیر
+der,Emmentaler Käse,-,-,,emmental cheese,نوعی پنیر سوییسی با حفره های زیاد
 der,Joghurt,s,Joghurts,,yogurt,ماست
 die,Milch,,,,milk,شیر
 die,Sahne,,,,cream,کرم
 die,Backwaren,,,,baked goods,کالاهای پخته شده
 das,Brot,e,Brote,,bread,نان
-das,Brötchen,-,,,bread rolls,نان رول
-der,Kuchen,-,,,cake,کیک
+das,Brötchen,-,-,,bread rolls,نان رول
+der,Kuchen,-,-,,cake,کیک
 die,Fleischwaren,,,,meat products,محصولات گوشتی
 das,Fleisch,,,,meat,گوشت
 das,Steak,s,Steaks,,steak,استیک
-die,Wurst,Würste,,,sausage,سوسیس
+die,Wurst,Würste,Würste,,sausage,سوسیس
 der,Fisch,,,,fish,ماهی
 der,Lachs,,,,salmon,ماهی سالمون
 der,Thunfisch,,,,tuna,ماهی تن
@@ -342,20 +340,20 @@ die,Marmelade,n,Marmeladen,,jam,مربا
 das,Mehl,,,,flour,آرد
 die,Pizza,s,Pizzas,,pizza,پیتزا
 der,Senf,,,,mustard,خردل
-das,Getränk,,,,beverage,نوشیدنی
+das,Getränk,e,Getränke,,beverage,نوشیدنی
 der,Kaffee,,,,coffee,قهوه
-der,Saft,Säfte,,,juice,آبمیوه
+der,Saft,Säfte,Säfte,,juice,آبمیوه
 das,Wasser,,,,water,آب
 der,Wein,e,Weine,,wine,شراب
 ,kaufen,,,v,shopping,خرید کردن
-,einkaufen,,,v,do shopping,خرید
-der,Einkauf,Einkäufe,,,shopping,خرید
-der,Einkaufszettel,-,,,shopping list,لیست خرید
+,einkaufen,,,v,do shopping,خرید کردن (اقلام ضروری)
+der,Einkauf,Einkäufe,Einkäufe,,shopping,خرید
+der,Einkaufszettel,-,-,,shopping list,لیست خرید
 der,Kunde,n,Kunden,,customer,مشتری
 die,Kundin,nen,Kundinnen,,customer,مشتری
-der,Verkäufer,-,,,salesperson,فروشنده
+der,Verkäufer,-,-,,salesperson,فروشنده
 die,Verkäuferin,nen,Verkäuferinnen,,saleswoman,فروشنده
-der,Supermarkt,Supermärkte,,,supermarket,سوپرمارکت
+der,Supermarkt,Supermärkte,Supermärkte,,supermarket,سوپرمارکت
 die,Konserve,n,Konserven,,can,کنسرو
 die,Tiefkühlkost,,,,frozen food,غذای منجمد
 die,Theke,n,Theken,,counter,پیشخوان
@@ -365,16 +363,17 @@ der,Preis,e,Preise,,price,قیمت
 der,Prospekt,e,Prospekte,,brochure,دفتر‌چه راهنما
 die,Verpackung,,,,packaging,بسته بندی
 das,Gewicht,,,,weight,وزن
-der,Becher,-,,,mug,لیوان
-das,Bund,e,Bunde,,federal,فدرال
+der,Becher,Becher,Becher,,beaker,پیاله یا جامی که شیشه‌ای نباشد
+das,Bund,e,Bunde,,bunch,دسته (گروه)
+das,Bund,Bünde,Bünde,,federal,اتحادیه
 die,Dose,n,Dosen,,tin,قوطی
 die,Flasche,n,Flaschen,,bottle,بطری
-das,Glas,Gläser,,,glass,شیشه
-der,Kasten,Kästen,,,crate,جعبه
+das,Glas,Gläser,Gläser,,glass,شیشه
+der,Kasten,Kästen,Kästen,,crate,جعبه
 das,Netz,e,Netze,,net bag,کیسه توری
 die,Packung,en,Packungen,,pack,بسته
-das,Päckchen,-,,,parcel,بسته كوچك
-der,Sack,säcke,,,bag,کیسه
+das,Päckchen,-,-,,parcel,بسته كوچك
+der,Sack,säcke,säcke,,bag,کیسه
 die,Schachtel,n,Schachteln,,box,جعبه
 das,Stück,e,Stücke,,piece,قطعه
 die,Tafel,n,Tafeln,,bar,قالب تخته ای
@@ -388,67 +387,67 @@ der,Liter,,,,liter,لیتر
 die,Familie,,,,family,خانواده
 der,Verwandte,n,Verwandten,,relative,خویشاوند
 die,Eltern,,,,parents,والدین
-der,Vater,Väter,,,father,پدر
-die,Mutter,Mütter,,,mother,مادر
+der,Vater,Väter,Väter,,father,پدر
+die,Mutter,Mütter,Mütter,,mother,مادر
 die,Großeltern,,,,grandparents,پدربزرگ و مادربزرگ
-der,Großvater,Großväter,,,grandfather,پدربزرگ
-die,Großmutter,Großmütter,,,grandmother,مادربزرگ
+der,Großvater,Großväter,Großväter,,grandfather,پدربزرگ
+die,Großmutter,Großmütter,Großmütter,,grandmother,مادربزرگ
 der,Opa,s,Opas,,grandpa,پدربزرگ
 die,Oma,s,Omas,,granny,مادربزرگ
 das,Kind,er,Kinder,,child,کودک
 das,Baby,s,Babys,,baby,نوزاد
 der,Junge,n,Jungen,,boy,پسر
-das,Mädchen,-,,,girl,دختر
-der,Sohn,Söhne,,,son,پسر
-die,Tochter,Töchter,,,daughter,دختر
-der,Enkel,-,,,grandson,نوه
+das,Mädchen,Mädchen,Mädchen,,girl,دختر
+der,Sohn,Söhne,Söhne,,son,پسر
+die,Tochter,Töchter,Töchter,,daughter,دختر
+der,Enkel,-,-,,grandson,نوه
 die,Enkelin,nen,Enkelinnen,,granddaughter,نوه دختر
 das,Enkelkind,er,Enkelkinder,,grandchild,نوه
 die,Geschwister,,,,siblings,خواهر و برادر
-der,Bruder,Brüder,,,brother,برادر
+der,Bruder,Brüder,Brüder,,brother,برادر
 die,Schwester,n,Schwestern,,sister,خواهر
-der,Onkel,-,,,uncle,عمو
+der,Onkel,-,-,,uncle,عمو
 die,Tante,n,Tanten,,aunt,عمه
 der,Neffe,n,Neffen,,nephew,برادرزاده
 die,Nichte,n,Nichten,,niece,خواهرزاده
 der,Cousin,s,Cousins,,cousin,پسرعمو
 die,Cousine,n,Cousinen,,cousin,پسرعمو
-der,Schwager,Schwäger,,,brother-in-law,برادر شوهر
+der,Schwager,Schwäger,Schwäger,,brother-in-law,برادر شوهر
 die,Schwägerin,nen,Schwägerinnen,,sister-in-law,خواهر شوهر
-der,Schwiegervater,Schwiegerväter,,,father-in-law,پدر شوهر
-die,Schwiegermutter,Schwiegermütter,,,mother-in-law,مادر شوهر
-der,Mann,Männer,,,man,مرد
+der,Schwiegervater,Schwiegerväter,Schwiegerväter,,father-in-law,پدر شوهر
+die,Schwiegermutter,Schwiegermütter,Schwiegermütter,,mother-in-law,مادر شوهر
+der,Mann,Männer,Männer,,man,مرد
 die,Frau,en,Frauen,,woman,زن
 der,Beruf,e,Berufe,,profession,حرفه
-der,Altenpfleger,-,,,geriatric nurse,پرستار سالمند
+der,Altenpfleger,-,-,,geriatric nurse,پرستار سالمند
 die,Altenpflegerin,nen,Altenpflegerinnen,,geriatric nurse,پرستار سالمند
 der,Architekt,en,Architekten,,architect,معمار
 die,Architektin,nen,Architektinnen,,architect,معمار
-der,Arzt,Ärzte,,,doctor,پزشک
+der,Arzt,Ärzte,Ärzte,,doctor,پزشک
 die,Ärztin,nen,Ärztinnen,,woman doctor,پزشک زن
-der,Bürokaufmann,Bürokaufmänner,,,office clerk,کارمند اداری
+der,Bürokaufmann,Bürokaufmänner,Bürokaufmänner,,office clerk,کارمند اداری
 die,Bürokauffrau,en,Bürokauffrauen,,office clerk,کارمند اداری
-der,Informatiker,-,,,computer scientist,دانشمند کامپیوتر
+der,Informatiker,-,-,,computer scientist,دانشمند کامپیوتر
 die,Informatikerin,nen,Informatikerinnen,,computer scientist,دانشمند کامپیوتر
 der,Journalist,en,Journalisten,,journalist,روزنامه‌نگار
 die,Journalistin,nen,Journalistinnen,,journalist,روزنامه‌نگار
-der,Lehrer,-,,,teacher,معلم
+der,Lehrer,-,-,,teacher,معلم
 die,Lehrerin,nen,Lehrerinnen,,teacher,معلم
-der,Putzmann,Putzmänner,,,cleaner,پاک کننده
+der,Putzmann,Putzmänner,Putzmänner,,cleaner,پاک کننده
 die,Putzfrau,en,Putzfrauen,,cleaning lady,نظافتچی خانم
-der,Verkäufer,-,,,salesperson,فروشنده
+der,Verkäufer,-,-,,salesperson,فروشنده
 die,Verkäuferin,nen,Verkäuferinnen,,saleswoman,فروشنده
-der,Werbefachmann,Werbefachmänner,,,advertising professional,متخصص تبلیغات
+der,Werbefachmann,Werbefachmänner,Werbefachmänner,,advertising professional,متخصص تبلیغات
 die,Werbefachfrau,en,Werbefachfrauen,,advertising professional,متخصص تبلیغات
 den,Haushalt machen,,,,doing housework,انجام کارهای خانه
-,kochen,,,,cook,آشپز
-,backen,,,,bake,پخت
-das,Frühstück machen,,,,make breakfast,صبحانه درست کردن
-den,Tisch decken,,,,set the table,میز غذاخوری را چیدن
-,aufstehen,,,,stand up,ایستادن
-,wecken,,,,wake up,بیدار شدن
+,kochen,,,v,cook,آشپز
+,backen,,,v,bake,پخت
+das,Frühstück machen,,,v,make breakfast,صبحانه درست کردن
+den,Tisch decken,,,v,set the table,میز غذاخوری را چیدن
+,aufstehen,,,v,stand up,ایستادن
+,wecken,,,v,wake up,بیدار شدن
 die,Kinder betreuen,,,,childcare,مراقبت کردن از بچه ها
-,frei haben,,,,To be off,وقت آزاد داشتن
+,frei haben,,,v,To be off,وقت آزاد داشتن
 ,nomen,,,,noun,اسم
 das,Au-pair,s,Au-pairs,,au pair,جفت AU
 die,Grafik,en,Grafiken,,graphic,گرافیک
@@ -488,8 +487,8 @@ die,Sportart,en,Sportarten,,sport,ورزش
 ,joggen,,,v,jog,دویدن آهسته
 das,Jogging,,,,jogging,دویدن آهسته
 ,laufen,,,v,run,دویدن
-das,Rad,Räder,,,wheel,چرخ
-das,Fahrrad,Fahrräder,,,bicycle,دوچرخه
+das,Rad,Räder,Räder,,wheel,چرخ
+das,Fahrrad,Fahrräder,Fahrräder,,bicycle,دوچرخه
 das,Mountainbike,s,Mountainbikes,,mountain bike,دوچرخه کوهستان
 das,Radfahren,,,,ride a bike,دوچرخه سواری کردن
 die,Gymnastik,,,,gymnastics,نرمش
@@ -536,7 +535,7 @@ die,Halle,n,Hallen,,hall,سالن
 die,Sporthalle,,,,sports hall,سالن ورزشی
 die,Mannschaft,en,Mannschaften,,team,تیم
 das,Spiel,e,Spiele,,game,بازی
-der,Spieler,-,,,player,بازیکن
+der,Spieler,-,-,,player,بازیکن
 die,Spielerin,nen,Spielerinnen,,player,بازیکن
 ,spielen,,,v,play,بازی کردن
 ,mitspielen,,,v,play a part,نقش بازی کردن
@@ -556,41 +555,41 @@ der,Start,s,Starts,,start,شروع
 das,Startgeld,er,Startgelder,,entry fee,هزینه ورود
 das,Ziel,e,Ziele,,goal,هدف
 der,Sieg,e,Siege,,victory,پیروزی
-der,Sieger,-,,,winner,برنده
+der,Sieger,-,-,,winner,برنده
 die,Siegerin,nen,Siegerinnen,,winner,برنده
 die,Strecke,n,Strecken,,route,مسیر
 der,Rekord,e,Rekorde,,record,ثبت
 der,Platz,,,,place,مکان
 die,Abkürzung,en,Abkürzungen,,abbreviation,مخفف
 die,Anzeige,n,Anzeigen,,advertisement,تبلیغات
-das,Buch,Bücher,,,book,کتاب
-der,Flyer,-,,,flyer,برگه‌ی آگهی
+das,Buch,Bücher,Bücher,,book,کتاب
+der,Flyer,-,-,,flyer,برگه‌ی آگهی
 die,Überschrift,en,Überschriften,,headline,تیتر خبر
 die,Zeitung,en,Zeitungen,,newspaper,روزنامه
-der,Zeitungartikel,-,,,newspaper article,مقاله روزنامه
+der,Zeitungartikel,-,-,,newspaper article,مقاله روزنامه
 das,Kind,er,Kinder,,child,کودک
 der,Jugendliche,n,Jugendlichen,,youth,جوانان
 der,Erwachsene,n,Erwachsenen,,adult,بزرگسال
-der,Rentner,-,,,pensioner,مستمری بگیر
+der,Rentner,-,-,,pensioner,مستمری بگیر
 die,Rentnerin,nen,Rentnerinnen,,pensioner,مستمری بگیر
 das,Publikum,,,,audience,بینندگان و شنوندگان
 der,Applaus,,,,applause,تشویق
 der,Anmeldung,en,Anmeldungen,,registration,ثبت نام
-der,Beitrag,Beiträge,,,contribution,مشارکت
+der,Beitrag,Beiträge,Beiträge,,contribution,مشارکت
 der,Jahresbeitrag,,,,annual fee,مشارکت سالانه
 der,Mitgliedsbeitrag,,,,membership fee,هزینه عضویت
 die,Ermäßigung,en,Ermäßigungen,,discount,تخفیف
 das,Gefühl,e,Gefühle,,feeling,احساس
 ,fühlen,,,v,feel,احساس کردن
 das,Interesse,n,Interessen,,interest,علاقه
-der,Kilometer,-,,,kilometers,کیلومتر
+der,Kilometer,-,-,,kilometers,کیلومتر
 der,Kontakt,e,Kontakte,,contact,تماس گرفتن
 die,Minute,n,Minuten,,minute,دقیقه
 die,Sekunde,n,Sekunden,,second,دوم
 der,Organisator,en,Organisatoren,,organizer,سازمان دهنده
 die,Sache,n,Sachen,,thing,چیز
 der,Schuh,e,Schuhe,,shoe,کفش
-der,Schüler,-,,,student,دانش آموز
+der,Schüler,-,-,,student,دانش آموز
 die,Schülerin,nen,Schülerinnen,,student,دانش آموز
 das,Sofa,s,Sofas,,sofa,مبل راحتی
 ,bekommen,,,v,receive,دریافت كردن
@@ -647,58 +646,58 @@ das,Sofa,s,Sofas,,sofa,مبل راحتی
 ,per,,,prep,by,توسط
 ,warum,,,adv,why,چرا
 ,,,,,,
-das,Haus,Häuser,,,house,خانه
-der,Hausmeister,-,,,building supervisor,ناظر ساختمان
+das,Haus,Häuser,Häuser,,house,خانه
+der,Hausmeister,-,-,,building supervisor,ناظر ساختمان
 der,Stock,,,,floor,طبقه ساختمان
 die,Wohnung,en,Wohnungen,,apartment,آپارتمان
 das,Apartment,s,Apartments,,apartment,آپارتمان
 die,Gemeinschaft,en,Gemeinschaften,,community,جامعه
 die,Wohngemeinschaft,,,,shared apartment,آپارتمان مشترک
-der,Bewohner,-,,,resident,شهروند
+der,Bewohner,-,-,,resident,شهروند
 die,Bewohnerin,nen,Bewohnerinnen,,resident,شهروند
 der,Mitbewohner,,,,roommate,هم اتاقی
 die,Mitbewohnerin,,,,roommate,هم اتاقی
 die,Miete,n,Mieten,,rent,اجاره
-der,Mieter,-,,,tenant,مستأجر
+der,Mieter,-,-,,tenant,مستأجر
 die,Mieterin,nen,Mieterinnen,,tenant,اجاره کننده
-der,Vermieter,-,,,landlord,صاحبخانه
+der,Vermieter,-,-,,landlord,صاحبخانه
 die,Vermieterin,nen,Vermieterinnen,,landlady,صاحبخانه
 ,mieten,,,v,rent,اجاره کردن
-der,Mietvertrag,Mietverträge,,,rental agreement,قرارداد اجاره
+der,Mietvertrag,Mietverträge,Mietverträge,,rental agreement,قرارداد اجاره
 der,Interessent,en,Interessenten,,interested party,طرف ذینفع
 die,Interessentin,nen,Interessentinnen,,interested party,طرف ذینفع
-der,Eingang,Eingänge,,,entrance,ورودی
+der,Eingang,Eingänge,Eingänge,,entrance,ورودی
 der,Flur,e,Flure,,hallway,راهرو
-das,Zimmer,-,,,room,اتاق
+das,Zimmer,-,-,,room,اتاق
 die,Küche,n,Küchen,,kitchen,آشپزخانه
-das,Bad,Bäder,,,bath,حمام
+das,Bad,Bäder,Bäder,,bath,حمام
 die,Badewanne,n,Badewannen,,bathtub,وان حمام
 die,Dusche,n,Duschen,,shower,دوش
 die,Toilette,n,Toiletten,,toilet,توالت
 der,Balkon,s,Balkons,,balcony,بالکن
-das,Fenster,-,,,window,پنجره
-der,Quadratmeter,-,,,square meters,متر مربع
-der,Makler,-,,,realtor,دلال معاملات ملکی
+das,Fenster,-,-,,window,پنجره
+der,Quadratmeter,-,-,,square meters,متر مربع
+der,Makler,-,-,,realtor,دلال معاملات ملکی
 die,Maklerin,nen,Maklerinnen,,real estate agent,مشاور املاک
 die,Altstadt,,,,historic district,منطقه تاریخی
 ,einziehen,,,v,move in,نقل مکان کردن به خانه جدید
 ,ausziehen,,,v,move out,نقل مکان کردن از خانه کنونی
 ,einrichten,,,v,furnish,مبله کردن
 die,Größe,n,Größen,,size,اندازه
-das,Möbel,-,,,furniture,مبلمان
+das,Möbel,-,-,,furniture,مبلمان
 das,Bett,en,Betten,,bed,تخت
 die,Matratze,n,Matratzen,,mattress,تشک
 die,Kommode,n,Kommoden,,dresser,کمد کشویی
 die,Lampe,n,Lampen,,lamp,لامپ
 das,Regal,e,Regale,,shelf,قفسه
-der,Schrank,Schränke,,,wardrobe,کمد لباس
+der,Schrank,Schränke,Schränke,,wardrobe,کمد لباس
 der,Kleiderschrank,,,,wardrobe,کمد لباس
-der,Sessel,-,,,armchair,صندلی راحتی
-der,Stuhl,Stühle,,,chair,صندلی
+der,Sessel,-,-,,armchair,صندلی راحتی
+der,Stuhl,Stühle,Stühle,,chair,صندلی
 der,Tisch,e,Tische,,table,میز
 der,Küchentisch,,,,kitchen table,میز آشپزخانه
 der,Schreibtisch,,,,desk,میز
-das,Holz,Hölzer,,,wood,چوب
+das,Holz,Hölzer,Hölzer,,wood,چوب
 das,Glas,,,,glass,شیشه
 der,Kunststoff,e,Kunststoffe,,plastic,پلاستیک
 das,Metall,e,Metalle,,metal,فلز
@@ -708,7 +707,7 @@ die,Leute,,,,people,مردم
 die,Nachricht,en,Nachrichten,,news,اخبار
 die,Rolle,n,Rollen,,role,غلتک
 der,Stau,s,Staus,,traffic jam,راهبندان
-das,Thema,Themen,,,theme,تم
+das,Thema,Themen,Themen,,theme,تم
 die,Überraschung,en,Überraschungen,,surprise,غافلگیری
 ,abholen,,,v,pick up,رفتن و آوردن
 ,aufmachen,,,v,open up,باز کردن
@@ -795,28 +794,28 @@ die,Jeans,,,,jeans,شلوار جین
 der,Pullover,,,,sweater,ژاکت
 das,Sweatshirt,s,Sweatshirts,,sweatshirt,سویشرت
 das,T-shirt,s,T-shirts,,t-shirt,تی‌شرت
-der,Mantel,Mäntel,,,coat,کت
+der,Mantel,Mäntel,Mäntel,,coat,کت
 die,Jacke,n,Jacken,,jacket,کاپشن
 die,Weste,n,Westen,,vest,جلیقه
-der,Anzug,Anzüge,,,men's suit,کت و شلوار مردانه
+der,Anzug,Anzüge,Anzüge,,men's suit,کت و شلوار مردانه
 das,Hemd,en,Hemden,,shirt,پیراهن
 die,Bluse,n,Blusen,,blouse,بلوز
 das,Kleid,er,Kleider,,dress,لباس
-der,Rock,Röcke,,,skirt,دامن
-der,Badeanzug,Badeanzüge,,,swimsuit,لباس شنا
+der,Rock,Röcke,Röcke,,skirt,دامن
+der,Badeanzug,Badeanzüge,Badeanzüge,,swimsuit,لباس شنا
 die,Badehose,n,Badehosen,,swimming trunks,مایو
 das,Nachthemd,en,Nachthemden,,nightdress,لباس خواب
-der,Schlafanzug,Schlafanzüge,,,pajamas,پیژامه
+der,Schlafanzug,Schlafanzüge,Schlafanzüge,,pajamas,پیژامه
 das,Unterhemd,en,Unterhemden,,undershirt,زیرپیراهنی
 die,Unterhose,n,Unterhosen,,underwear,لباس زیر
 die,Socke,n,Socken,,sock,جوراب
-der,Strumpf,Strümpfe,,,stocking,جوراب زنانه ساقه بلند
+der,Strumpf,Strümpfe,Strümpfe,,stocking,جوراب زنانه ساقه بلند
 die,Strumpfhose,n,Strumpfhosen,,pantie hose,جوراب شلواری
 der,Gürtel,,,,belt,کمربند
 die,Krawatte,n,Krawatten,,necktie,کراوات
 der,Handschuh,e,Handschuhe,,glove,دستکش
 der,Schal,s,Schals,,scarf,روسری
-der,Hut,Hüte,,,hat,کلاه
+der,Hut,Hüte,Hüte,,hat,کلاه
 die,Mütze,n,Mützen,,wool hat,کلاه بافتنی
 die,Tasche,n,Taschen,,bag,کیف
 ,ein Paar,,,,a couple of,یک جفت از
@@ -845,15 +844,15 @@ das,Leder,,,,leather,چرم
 ,waschen,,,v,wash,شستشو
 die,Wäsche,,,,laundry,لباسهای کثیف
 die,Wäscherei,en,Wäschereien,,laundry,خشکشویی
-der,Waschkorb,Wäschkorbe,,,laundry basket,سبد لباس‌های شسته شده
+der,Waschkorb,Wäschkorbe,Wäschkorbe,,laundry basket,سبد لباس‌های شسته شده
 die,Maschine,n,Maschinen,,machine,دستگاه
 die,Waschmaschine,,,,washing machine,ماشین لباسشویی
 das,Programm,e,Programme,,program,برنامه
 das,Waschprogramm,,,,washing program,برنامه شستشو
-das,Waschpulver,-,,,washing powder,پودر لباسشویی
+das,Waschpulver,-,-,,washing powder,پودر لباسشویی
 der,Waschsalon,s,Waschsalons,,laundromat,رختشویخانه
 ,waschen,,,v,wash,شستشو
-der,Trockner,-,,,dryer,خشک کن
+der,Trockner,-,-,,dryer,خشک کن
 ,trocknen,,,v,dry,خشک
 die,Anleitung,en,Anleitungen,,instructions,دستورالعمل‌ها
 der,Automat,en,Automaten,,vending machine,دستگاه فروش خودکار
@@ -868,7 +867,7 @@ der,Kassenautomat,,,,self-checkout machine,دستگاه خودپرداز
 ,wählen,,,v,choose,انتخاب کردن
 ,drücken,,,v,press,فشار دادن
 ,einlaufen,,,v,enter,دویدن
-die,Angst,Ängste,,,fear,ترس
+die,Angst,Ängste,Ängste,,fear,ترس
 die,Anweisung,en,Anweisungen,,instruction,دستور
 die,Aufforderung,en,Aufforderungen,,request,درخواست
 der,Bekannte,n,Bekannten,,acquaintance,آشنایی
@@ -879,7 +878,7 @@ der,Espresso,s,Espressos,,espresso,اسپرسو
 der,Tee,s,Tees,,tea,چای
 die,Entschuldigung,en,Entschuldigungen,,excuse me,ببخشید!
 das,Gedicht,e,Gedichte,,poem,شعر
-der,Inhaber,-,,,owner,مالک
+der,Inhaber,-,-,,owner,مالک
 die,Inhaberin,nen,Inhaberinnen,,owner,مالک
 der,Job,s,Jobs,,job,شغل
 die,Kasse,n,Kassen,,cash desk,صندوق
@@ -890,19 +889,19 @@ die,Lösung,en,Lösungen,,solution,راه حل
 die,Neuigkeit,en,Neuigkeiten,,news,خبر جدید
 die,Notiz,en,Notizen,,note,یادداشت
 das,Paar,e,Paare,,couple,زوج
-der,Platz,-,,,place,مکان
+der,Platz,-,-,,place,مکان
 der,Schwächling,e,Schwächlinge,,weakling,کم بنیه
 die,Situation,en,Situationen,,situation,وضعیت
 der,Snack,s,Snacks,,snack,میان وعده
-der,Traum,Träume,,,dream,رویا
+der,Traum,Träume,Träume,,dream,رویا
 die,Tür,en,Türen,,door,درب
 die,Veranstaltung,en,Veranstaltungen,,event,رویداد
 die,Vermutung,en,Vermutungen,,supposition,فرض
-der,Vetter,-,,,cousin,پسرعمو
-der,Vorschlag,Vorschläge,,,suggestion,پیشنهاد
+der,Vetter,-,-,,cousin,پسرعمو
+der,Vorschlag,Vorschläge,Vorschläge,,suggestion,پیشنهاد
 die,Beschreibung,en,Beschreibungen,,description,توضیحات
 die,Wegbeschreibung,,,,directions,مسیر
-der,Wunsch,Wünsche,,,wish,آرزو
+der,Wunsch,Wünsche,Wünsche,,wish,آرزو
 die,Zeile,n,Zeilen,,row,سطر
 ,anfangen,,,v,begin,شروع كردن
 ,anprobieren,,,v,try it on,امتحان كردن
@@ -958,13 +957,13 @@ die,Zeile,n,Zeilen,,row,سطر
 ,ja,,,par,yes,بله
 ,mal,,,adv,once,یکبار
 ,doch,,,Konj,"still,but","هنوز،اما"
-,alles,for things,,,everything,همه چیز
-,alle,for people,,,all,همه
+,alles,for things,for things,,everything,همه چیز
+,alle,for people,for people,,all,همه
 ,,,,,,
 das,Verkehrsmittel,,,,means of transport,وسایل حمل و نقل
 die,Bahn,en,Bahnen,,train,قطار
 der,Bus,se,Busse,,bus,اتوبوس
-das,Fahrrad,fahrräder,,,bicycle,دوچرخه
+das,Fahrrad,fahrräder,fahrräder,,bicycle,دوچرخه
 das,Velo,s,Velos,,bicycle,دوچرخه
 die,StraßenBahn,en,StraßenBahnen,,tram,تراموا
 die,Tram,s,Trams,,tram,تراموا
@@ -973,7 +972,7 @@ die,Tram,s,Trams,,tram,تراموا
 ,halten,,,v,hold,در دست گرفتن
 ,aussteigen,,,v,exit,خروج
 ,umsteigen,,,,transfer,جابجا شدن بین وسایل نقلیه
-der,Bahnhof,Bahnhöfe,,,railroad station,ایستگاه راه آهن
+der,Bahnhof,Bahnhöfe,Bahnhöfe,,railroad station,ایستگاه راه آهن
 die,Fahrkarte,n,Fahrkarten,,ticket,بلیط
 der,Automat,en,Automaten,,vending machine,دستگاه فروش خودکار
 der,Fahrkartenautomat,,,,ticket machine,دستگاه بلیط فروشی
@@ -985,22 +984,22 @@ die,Touristeninformation,en,Touristeninformationen,,tourist information,اطلا
 die,Attraktion,en,Attraktionen,,attraction,جاذبه
 die,Sehenswürdigkeit,en,Sehenswürdigkeiten,,tourist attraction,منظره
 die,Führung,en,Führungen,,guide,راهنما
-das,Gebäude,-,,,building,ساختمان
+das,Gebäude,-,-,,building,ساختمان
 die,Glocke,n,Glocken,,bell,زنگ
 das,Glockenspiel,e,Glockenspiele,,chime,کاریلون
 die,kirche,n,kirchen,,church,کلیسا
 die,Kuppel,n,Kuppeln,,dome,گنبد
-das,Münster,-,,,cathedral,کلیسای جامع
+das,Münster,-,-,,cathedral,کلیسای جامع
 das,Parlament,e,Parlamente,,parliament,مجلس
 die,Regierung,en,Regierungen,,government,دولت
 das,Tor,e,Tore,,gate,دروازه
-der,Turm,Türme,,,tower,برج
+der,Turm,Türme,Türme,,tower,برج
 ,besichtigen,,,v,visit,بازدید كردن
-der,Stadtplan,Stadtpläne,,,town map,نقشه شهر
+der,Stadtplan,Stadtpläne,Stadtpläne,,town map,نقشه شهر
 die,Gasse,n,Gassen,,alley,کوچه
 der,Weg,e,Wege,,away,دور
 die,Kreuzung,en,Kreuzungen,,crossing,چهارراه
-der,Platz,Plätze,,,place,مکان
+der,Platz,Plätze,Plätze,,place,مکان
 ,einzeichnen,,,v,draw,طراحی کردن
 die,Wegbeschreibung,,,,direction,مسیر
 ,hier,,,adv,here,اینجا
@@ -1014,11 +1013,11 @@ die,Wegbeschreibung,,,,direction,مسیر
 die,Malerei,,,,painting,نقاشی
 die,Kunst,,,,art,هنر
 das,Bild,er,Bilder,,picture,تصویر
-der,Künstler,-,,,artist,هنرمند
+der,Künstler,-,-,,artist,هنرمند
 die,Künstlerin,nen,Künstlerinnen,,artist,هنرمند
 die,Kunstakademie,n,Kunstakademien,,academy of art,آکادمی هنر
 die,Kunstschule,n,Kunstschulen,,art school,مدرسه هنری
-der,Maler,-,,,painter,نقاش
+der,Maler,-,-,,painter,نقاش
 die,Malerin,nen,Malerinnen,,painter,نقاش
 der,Appetit,,,,appetite,اشتها
 der,Bär,en,Bären,,bear,خرس
@@ -1026,11 +1025,11 @@ die,Biografie,n,Biografien,,biography,زندگینامه
 die,Blume,n,Blumen,,flower,گل
 der,Dank,,,,thanks to,با تشکر از
 das,Ehepaar,e,Ehepaare,,couple,زوج
-der,Eingang,Eingänge,,,entrance,ورودی
+der,Eingang,Eingänge,Eingänge,,entrance,ورودی
 die,Einladung,en,Einladungen,,invitation,دعوتنامه
-das,Einkaufszentrum,Einkaufszentren,,,shopping center,مرکز خرید
+das,Einkaufszentrum,Einkaufszentren,Einkaufszentren,,shopping center,مرکز خرید
 das,Ende,,,,end,پایان
-der,Fehler,-,,,mistake,اشتباه
+der,Fehler,-,-,,mistake,اشتباه
 die,Gegenwart,,,,present,حال
 die,Vergangenheit,,,,past,گذشته
 die,Zukunft,,,,future,آینده
@@ -1041,7 +1040,7 @@ die,Party,s,Partys,,party,مهمانی
 das,Haupt,,,,main,اصلی
 die,Hauptsehenswürdigkeit,,,,main attraction,جاذبه اصلی
 die,Ideologie,n,Ideologien,,ideology,ایدئولوژی
-das,Kärtchen,-,,,little card,کارت کوچک
+das,Kärtchen,-,-,,little card,کارت کوچک
 das,Leben,,,,life,زندگی
 der,Moment,e,Momente,,moment,لحظه
 der,Professor,en,Professoren,,professor,استاد
@@ -1049,13 +1048,13 @@ die,Professorin,nen,Professorinnen,,professor,استاد
 die,Region,n,Regionn,,region,منطقه
 die,Reihenfolge,n,Reihenfolgen,,sequence,"توالی، دنباله"
 die,Reise,n,Reisen,,trip,سفر
-der,Reiseführer,-,,,travel guide,راهنمای سفر
+der,Reiseführer,-,-,,travel guide,راهنمای سفر
 die,Sitte,n,Sitten,,custom,سفارشی
 die,Steuer,n,Steuern,,tax,مالیات
 die,Stimmung,en,Stimmungen,,mood,خلق و خو
 der,Stress,e,Stresse,,stress,استرس
 das,Symbol,e,Symbole,,symbol,نماد
-das,Würstchen,-,,,sausage,سوسیس‌ها
+das,Würstchen,-,-,,sausage,سوسیس‌ها
 ,beenden,,,v,finish,پایان
 ,dabeihaben,,,v,have with you,چیزی همراه خود داشتن
 ,danken für,,,,thank you for,متشکرم از
@@ -1102,39 +1101,39 @@ das,Würstchen,-,,,sausage,سوسیس‌ها
 ,von,,,prep,from,از
 ,zu,,,prep,to,به
 ,,,,,,
-der,Auflauf,Aufläufe,,,casserole,قابلمه
+der,Auflauf,Aufläufe,Aufläufe,,casserole,قابلمه
 die,Suppe,n,Suppen,,soup,سوپ
-das,Huhn,Hühner,,,hen,مرغ
+das,Huhn,Hühner,Hühner,,hen,مرغ
 das,Hühnerfleisch,,,,chicken meat,گوشت مرغ
 das,Lammfleisch,,,,lamb,بره
 das,Schweinefleisch,,,,pork,گوشت خوک
-der,Braten,-,,,roast,کباب شده
+der,Braten,-,-,,roast,کباب شده
 der,Tafelspitz,,,,boiled beef,گوشت گاو آب پز
-das,Schnitzel,-,,,schnitzel,شینسل
+das,Schnitzel,-,-,,schnitzel,شینسل
 die,Forelle,n,Forellen,,trout,ماهی قزل آلا
 das,Filet,s,Filets,,filet,فیله
-der,Erdapfel,Erdäpfel,,,potato,سیب زمینی
+der,Erdapfel,Erdäpfel,Erdäpfel,,potato,سیب زمینی
 die,Rösterdäpfel,,,,roasted potato,سیب زمینی کباب شده
-der,Kloß,Klöße,,,dumpling,کوفته
-der,Knödel,-,,,dumpling,کوفته
+der,Kloß,Klöße,Klöße,,dumpling,کوفته
+der,Knödel,-,-,,dumpling,کوفته
 der,Knoblauch,,,,garlic,سیر
 das,Kraut,,,,herb,گیاه
 der,Paradeiser,,,,tomatoes,گوجه فرنگی
 das,Fladenbrot,e,Fladenbrote,,flatbread,نان مسطح
 die,Semmel,n,Semmeln,,roll,نان ساندویچی
 das,Öl,e,Öle,,oil,روغن
-die,Nuss,Nüsse,,,nut,آجیل
+die,Nuss,Nüsse,Nüsse,,nut,آجیل
 die,Palatschinke,n,Palatschinken,,pancake,پنکیک
 die,Sauce,n,Saucen,,sauce,سس
 das,Schlagobers,,,,whipped cream,خامه زده شده
 die,Torte,n,Torten,,tart,تارت
-der,Topfenstrudel,-,,,curd strudel,استرودل پنیر
-der,Quarkstrudel,-,,,curd strudel,استرودل پنیر
+der,Topfenstrudel,-,-,,curd strudel,استرودل پنیر
+der,Quarkstrudel,-,-,,curd strudel,استرودل پنیر
 das,Vanilleeis,,,,vanilla ice cream,بستنی وانیلی
 die,Zitrone,n,Zitronen,,lemon,لیمو
 das,Bier,e,Biere,,beer,آبجو
 die,Birne,n,Birnen,,pear,گلابی
-der,Birnensaft,Birnensäft,,,pear juice,آب گلابی
+der,Birnensaft,Birnensäft,Birnensäft,,pear juice,آب گلابی
 das,Cola,s,Colas,,cola,نوشابه
 ,bitter,,,,bitter,تلخ
 ,salzsig,,,,salty,شور
@@ -1151,8 +1150,8 @@ die,Nachspeise,,,,dessert,دسر
 das,Hauptgericht,e,Hauptgerichte,,main course,غذای اصلی
 das,Dessert,s,Desserts,,dessert,دسر
 die,Speisekarte,n,Speisekarten,,menu,منو
-der,Gast,Gäste,,,guest,مهمان
-der,Kellner,-,,,waiter,پیشخدمت
+der,Gast,Gäste,Gäste,,guest,مهمان
+der,Kellner,-,-,,waiter,پیشخدمت
 die,Kellnerin,nen,Kellnerinnen,,waitress,پیشخدمت
 die,Rechnung,en,Rechnungen,,invoice,فاکتور
 das,Trinkgeld,er,Trinkgelder,,tip,نکته
@@ -1164,12 +1163,12 @@ das,Trinkgeld,er,Trinkgelder,,tip,نکته
 ,genießen,,,v,enjoy,لذت بردن
 ,servieren,,,v,serve,پذیرایی كردن
 die,Gabel,n,Gabeln,,fork,چنگال
-der,Löffel,-,,,spoon,قاشق
-das,Messer,-,,,knife,چاقو
-der,Teller,-,,,plate,بشقاب
+der,Löffel,-,-,,spoon,قاشق
+das,Messer,-,-,,knife,چاقو
+der,Teller,-,-,,plate,بشقاب
 die,Tasse,n,Tassen,,cup,فنجان
-das,Glas,Gläser,,,glass,شیشه
-der,Topf,Töpfe,,,pot,قابلمه
+das,Glas,Gläser,Gläser,,glass,شیشه
+der,Topf,Töpfe,Töpfe,,pot,قابلمه
 die,Serviette,n,Servietten,,napkin,دستمال سفره
 das,Gericht,e,Gerichte,,"dish,court","غذا،دادگاه"
 das,Rezept,e,Rezepte,,recipe,دستور پخت
@@ -1186,7 +1185,7 @@ die,Zustimmung,,,,approval,تصویب
 das,Gegenteil,e,Gegenteile,,opposite,روبرو
 die,Hilfe,n,Hilfen,,help,کمک
 die,Idee,n,Ideen,,idea,ایده
-der,Klingelton,Klingeltöne,,,ringtone,آهنگ زنگ
+der,Klingelton,Klingeltöne,Klingeltöne,,ringtone,آهنگ زنگ
 die,Kohlensäure,,,,carbonic acid,اسید کربنیک
 der,Liebling,,,,darling,عزیزم
 der,Mittag,e,Mittage,,midday,ظهر
